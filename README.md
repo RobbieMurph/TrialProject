@@ -28,10 +28,15 @@ Method:
 1. Open a TextEditor and write out the code needed to display the top 10 projects. 
 2. Googled how to create an API with python and attempted to create a website portraying the top 10 projects on Scrapinghub. 
 3. Read through sites with info on Flask, Python Web Services, API's etc. 
+
   (a) https://realpython.com/beautiful-soup-web-scraper-python/#an-alternative-to-web-scraping-apis
+  
   (b) https://phoenixnap.com/kb/install-flask
+  
   (c) https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask#api-design-principles
+  
   (d) etc etc. 
+  
 4. Went back to the PDF via emails.
 
   (a) Clicked on the link provided within the Trial Project PDF -> Was redirected to a GitHub site
