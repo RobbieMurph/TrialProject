@@ -9,9 +9,11 @@ Intro:
   (a) Virtual Environment installed.
 
    - Use the MAC Terminal and follow the steps shown in the above link. 
+   
   (b) Create an Environment
     
    - Use the MAC Terminal and follow the steps shows in the above link. 
+   
   (c) Activate the Environment
    
    - Same as (a) & (b). 
