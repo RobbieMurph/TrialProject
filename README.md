@@ -7,14 +7,21 @@ Intro:
 3. 'https://phoenixnap.com/kb/install-flask' 
 
   (a) Virtual Environment installed.
-    (i) Use the MAC Terminal and follow the steps shown in the above link. 
+
+   - Use the MAC Terminal and follow the steps shown in the above link. 
   (b) Create an Environment
-    (i) Use the MAC Terminal and follow the steps shows in the above link. 
+    
+   - Use the MAC Terminal and follow the steps shows in the above link. 
   (c) Activate the Environment
-    (i) Same as (a) & (b). 
+   
+   - Same as (a) & (b). 
+   
   (d) Install Flask via MAC OS Terminal
+  
   (e) Test the Environment
-    (i) Create a test python file and edit it via TextEditor. 
+   
+   - Create a test python file and edit it via TextEditor. 
+   
 Method:
 1. Open a TextEditor and write out the code needed to display the top 10 projects. 
 2. Googled how to create an API with python and attempted to create a website portraying the top 10 projects on Scrapinghub. 
@@ -24,11 +31,16 @@ Method:
   (c) https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask#api-design-principles
   (d) etc etc. 
 4. Went back to the PDF via emails.
+
   (a) Clicked on the link provided within the Trial Project PDF -> Was redirected to a GitHub site
+  
   (b) Clicked on the 'Projects' tab but it was showing 0 projects, so I clicked on Repositories tab instead.
+  
   (c) Sorted the Repositories by 'Stars' to show the best.
+  
   (d) Tried to create files via TextEditor to scrape data from GitHub site using URL, but it gave an error advising 'Certificate not Found'.
-    (i) Used the code below in order to print out the data of the page, just as a test run. The code failed - I wasnt able to get it working:
+  
+   - Used the code below in order to print out the data of the page, just as a test run. The code failed - I wasnt able to get it working:
        
    import requests
    URL = "https://github.com/orgs/scrapinghub/repositories?q=&type=&language=&sort=stargazers
@@ -36,6 +48,7 @@ Method:
    print(page.text)
         
 5. Created a file via TextEditor to print out the results via text rather than scrape the data and return then. 
+
   (a) See below Code:
 
 Python Code:
@@ -48,9 +61,13 @@ def top10():
     return "<h1>Top 10 Repositories on Scrapinghub Today.</h1><p>Saturday 20th November: 17:30pm</p><p>1: portia</p><p> - Visual Scraping for Scrapy</p><p>2: splash</p><p> - Lightweight, scriptable browser as a service with an HTTP API</p>3: dateparser</p><p> - python parser for hunman readable dates</p><p>4: slackbot</p><p> - A chat bot for Slack</p><p>5: frontera</p><p> - A scalable frontier for web crawlers</p><p>6: python-crfsuite</p><p> - A python binding for crfsuite</p><p>7: scrapyrt</p><p> - HTTP API for Scrapy spiders</p><p>8: extruct</p><p> - Extract embedded metadata from HTML markup</p><p>9: spidermon</p><p> - Scrapy Extension for monitoring spiders execution</p><p>10: webstruct</p><p> - NER toolkit for HTML data</p>"
 
 6. Ran the flask app via MAC Terminal to attach the file to the loopback IP
+
   (a) 'export FLASK_APP=API.py'
+  
   (b) 'run flask'
+  
   (c) IP Received: http://127.0.0.1:5000/
+  
   (d) Once searched via browser, the above IP shows the output of the Python Code above. 
 
 Conclusion:
