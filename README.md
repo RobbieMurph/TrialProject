@@ -27,6 +27,13 @@ Method:
   (b) Clicked on the 'Projects' tab but it was showing 0 projects, so I clicked on Repositories tab instead.
   (c) Sorted the Repositories by 'Stars' to show the best.
   (d) Tried to create files via TextEditor to scrape data from GitHub site using URL, but it gave an error advising 'Certificate not Found'.
+    (i) Used the code below in order to print out the data of the page, just as a test run. The code failed - I wasnt able to get it working:
+       
+   import requests
+   URL = "https://github.com/orgs/scrapinghub/repositories?q=&type=&language=&sort=stargazers
+   page = requests.get(URL)
+   print(page.text)
+        
 5. Created a file via TextEditor to print out the results via text rather than scrape the data and return then. 
   (a) See below Code:
 
