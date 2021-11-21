@@ -5,6 +5,7 @@ Intro:
 1. Install Flask.
 2. -> Use below link for steps needed to install Flask on a MAC OS. 
 3. 'https://phoenixnap.com/kb/install-flask' 
+
   (a) Virtual Environment installed.
     (i) Use the MAC Terminal and follow the steps shown in the above link. 
   (b) Create an Environment
